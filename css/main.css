@@ -1,0 +1,8 @@
+.card__body__desc {
+    position: relative;
+    top: -4px;
+    left: 8px;
+}
+.fa-star {
+    color: var(--bs-warning);
+}

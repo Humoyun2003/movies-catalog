@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container my-4">
+        <h1 class="text-center">Movies Catalog</h1>
+        <div class="mt-5 row">
+            <div class="container col-4">
+                <form class="mb-4">
+                    <input type="text" class="form-control mb-3" placeholder="film-name" aria-label="name"
+                        aria-describedby="basic-addon1">
+                    <input type="text" class="form-control mb-3" placeholder="number" aria-label="number"
+                        aria-describedby="basic-addon1">
+                    <select class="form-select mb-3" aria-label="Default select example">
+                        <option selected>Rating (high to low)</option>
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+                    </select>
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                    </div>
+                </form>
+                <div>
+                    <h2>Bookmarked Movies</h2>
+                    <div class="row d-grid">
+                        <div class="col border p-3">
+                            <h5>Avengers: Infinity War</h5>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </div>
+                        <div class="col border p-3">
+                            <h5>The Avengers</h5>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </div>
+                        <div class="col border p-3">
+                            <h5>12 Years of a slave</h5>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container col-7">
+                <h3>Search Results: 39</h3>
+                <div class="alert alert-primary" role="alert">Use the form on the left to search for a moves!</div>
+                <div class="d-flex justify-content-between">
+                    <div class="card" style="width: 21rem;">
+                        <img src="./images/img-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Avengers: Infinity War</h5>
+                            <div class="d-flex mt-3">
+                                <i class="fas fa-calendar-week"></i>
+                                <p class="card__body__desc">2018</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-star"></i>
+                                <p class="card__body__desc">8.7</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <button type="button" class="btn btn-outline-primary p-2">Watch trailer</button>
+                                <button type="button" class="btn btn-outline-info p-2">More info</button>
+                                <button type="button" class="btn btn-outline-success p-2">Bookmark</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 21rem;">
+                        <img src="./images/img-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">The Avengers</h5>
+                            <div class="d-flex mt-3">
+                                <i class="fas fa-calendar-week"></i>
+                                <p class="card__body__desc">2012</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-star"></i>
+                                <p class="card__body__desc">8.1</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <button type="button" class="btn btn-outline-primary p-2">Watch trailer</button>
+                                <button type="button" class="btn btn-outline-info p-2">More info</button>
+                                <button type="button" class="btn btn-outline-success p-2">Bookmark</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center m-4">
+                    <button class="btn btn-primary" type="button">1</button>
+                    <button class="btn btn-light" type="button">2</button>
+                    <button class="btn btn-light" type="button">3</button>
+                    <button class="btn btn-light" type="button">4</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
